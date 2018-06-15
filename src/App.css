@@ -1,0 +1,81 @@
+
+/* Colors*/
+.a {
+  background: #eeeeee;
+}
+.b {
+  background: #3a3532;
+}
+.c {
+  background: #a4a09f;
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  justify-content: center;
+  
+}
+.d {
+  background: #49423f;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  
+}
+.e {
+  background: #ec6500;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.App {
+  text-align: left;
+}
+
+/*Background*/
+
+.background {
+  background-color: rgb(44, 42, 41); 
+}
+
+/*Calculator*/
+
+.calculator {
+  width: 360px;
+  height: 550px;
+  border-radius: 1rem;        
+  margin: auto;
+  margin-top: 3rem; 
+}
+
+/*Button*/
+
+.button {
+  width: 74px;
+  height: 74px;
+  border-radius: 3rem;
+  margin: 0.5rem;
+  flex: 0 1 25%;
+}
+
+
+/*display*/
+
+.display {
+  height: 100px;
+  width: 360px;
+  /*background: black;*/
+}
+
+.row {
+  flex: 0 100%;
+  display: flex;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: center;
+}
